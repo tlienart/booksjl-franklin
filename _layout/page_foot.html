@@ -1,0 +1,21 @@
+<div class="bottom-nav">
+
+  <p id="nav-prev" style="text-align: left;">
+    {{isdef prev}}
+      <a class="menu-level-1" href="/{{prev}}"><b>1</b> {{prev}}</a> <kbd>←</kbd>
+    {{end}}
+
+    {{isdef next}}
+      <span id="nav-next" style="float: right;">
+          <kbd>→</kbd> <a class="menu-level-1" href="/{{next}}"><b>1</b> {{next}}</a>
+      </span>
+    {{end}}
+  </p>
+</div>
+
+<div class="license">
+  <br/>
+  <br/>
+  <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+    Rik Huijzer, and contributors
+</div>
