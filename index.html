@@ -6,9 +6,9 @@
   <meta name="author" content="Rik Huijzer" />
   <meta name="author" content="and contributors" />
    <title>Welcome ⋅ Books.jl</title>  
-  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-  <link rel="stylesheet" href="/css/base.css"/>
-  <script src="/mousetrap.min.js"></script>
+  <link rel="shortcut icon" type="image/png" href="/booksjl-franklin/favicon.png"/>
+  <link rel="stylesheet" href="/booksjl-franklin/css/base.css"/>
+  <script src="/booksjl-franklin/mousetrap.min.js"></script>
   <style>
   @font-face {
     font-family: JuliaMono-Regular;
@@ -17,9 +17,9 @@
   </style>
 
   
-    <link rel="stylesheet" href="/libs/highlight/github.min.css">
-    <script src="/libs/highlight/highlight.min.js"></script>
-    <script src="/libs/highlight/julia.min.js"></script>
+    <link rel="stylesheet" href="/booksjl-franklin/libs/highlight/github.min.css">
+    <script src="/booksjl-franklin/libs/highlight/highlight.min.js"></script>
+    <script src="/booksjl-franklin/libs/highlight/julia.min.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', (event) => {
         document.querySelectorAll('pre').forEach((el) => {
@@ -30,7 +30,7 @@
   
 
   
-    <link rel="stylesheet" href="/libs/katex/katex.min.css">
+    <link rel="stylesheet" href="/booksjl-franklin/libs/katex/katex.min.css">
   
 </head>
 
@@ -43,7 +43,7 @@
   <label for="menu">☰</label>
 
   <div class="books-title">
-    <a href="/">Books.jl</a>
+    <a href="/booksjl-franklin/">Books.jl</a>
   </div>
 
   <br />
@@ -53,18 +53,18 @@
   </span>
 
   <div class="books-menu-content">
-    <li><a class="menu-level-1" href="/about"><b>1</b> About</a></li>
-    <li><a class="menu-level-1" href="/getting-started"><b>2</b> Getting started</a></li>
-    <li><a class="menu-level-2" href="/metadata"><b>2.1</b> metadata.yml</a></li>
-    <li><a class="menu-level-2" href="/config"><b>2.2</b> config.toml</a></li>
-    <li><a class="menu-level-2" href="/templates"><b>2.3</b> Templates</a></li>
-    <li><a class="menu-level-1" href="/demo"><b>3</b> Demo</a></li>
-    <li><a class="menu-level-2" href="/embedding-output"><b>3.1</b> Embedding output</a></li>
-    <li><a class="menu-level-2" href="/labels-captions"><b>3.2</b> Labels and captions</a></li>
-    <li><a class="menu-level-2" href="/function_code_blocks"><b>3.3</b> Obtaining function defin..</a></li>
-    <li><a class="menu-level-2" href="/plots"><b>3.4</b> Plots</a></li>
-    <li><a class="menu-level-2" href="/other-notes"><b>3.5</b> Other notes</a></li>
-    <li><a class="menu-level-1" href="/references"><b></b> References</a></li>
+    <li><a class="menu-level-1" href="/booksjl-franklin/about"><b>1</b> About</a></li>
+    <li><a class="menu-level-1" href="/booksjl-franklin/getting-started"><b>2</b> Getting started</a></li>
+    <li><a class="menu-level-2" href="/booksjl-franklin/metadata"><b>2.1</b> metadata.yml</a></li>
+    <li><a class="menu-level-2" href="/booksjl-franklin/config"><b>2.2</b> config.toml</a></li>
+    <li><a class="menu-level-2" href="/booksjl-franklin/templates"><b>2.3</b> Templates</a></li>
+    <li><a class="menu-level-1" href="/booksjl-franklin/demo"><b>3</b> Demo</a></li>
+    <li><a class="menu-level-2" href="/booksjl-franklin/embedding-output"><b>3.1</b> Embedding output</a></li>
+    <li><a class="menu-level-2" href="/booksjl-franklin/labels-captions"><b>3.2</b> Labels and captions</a></li>
+    <li><a class="menu-level-2" href="/booksjl-franklin/function_code_blocks"><b>3.3</b> Obtaining function defin..</a></li>
+    <li><a class="menu-level-2" href="/booksjl-franklin/plots"><b>3.4</b> Plots</a></li>
+    <li><a class="menu-level-2" href="/booksjl-franklin/other-notes"><b>3.5</b> Other notes</a></li>
+    <li><a class="menu-level-1" href="/booksjl-franklin/references"><b></b> References</a></li>
   </div>
 
 </aside>
@@ -74,7 +74,7 @@
 
 <h1 id="welcome"><a href="#welcome" class="header-anchor">Welcome</a></h1>
 <p>This website introduces and demonstrates a quick and dirty adaptation of the layout in the package <a href="https://books.huijzer.xyz">Books.jl</a> at version 1.2.2.</p>
-<p>See Section <a href="/section-1/">1</a> for more information about this package. To get started and setup your own project, see Section <a href="/section-2/">2</a>. You can see a demonstration of the features and usage examples in Section <a href="/section-3/">3</a>.</p>
+<p>See Section <a href="/booksjl-franklin/section-1/">1</a> for more information about this package. To get started and setup your own project, see Section <a href="/booksjl-franklin/section-2/">2</a>. You can see a demonstration of the features and usage examples in Section <a href="/booksjl-franklin/section-3/">3</a>.</p>
 <p><strong>Maintenance mode</strong></p>
 <p>As it stands now &#40;2022-02-01&#41;, this project is in maintenance mode. Feel free to use it, we’ve sucessfuly published the <a href="https://juliadatascience.io/">Julia Data Science</a> book with it so everything should work. Also, I’m motivated to maintain this package because I might write my thesis with it in about a year. However, I personally don’t believe much more in the approach taken in this project for two reasons:</p>
 <p>First, PDFs are overrated. According to the analytics on our book site, only about 10 &#37; of the people who visit download the PDF and only 1 &#37; buys the book. Making LaTeX work for this package took relatively a lot of time and is still quite brittle. Even with the Pandoc layer in between, I doubt that the whole hassle of things like Pandoc, LaTeX fonts, LaTeX styling is worth it. On the other hand, HTML is a very versatile format for which robust standards exist. Compared to PDF, HTML and CSS support:</p>
@@ -105,7 +105,7 @@
 
     
       <span id="nav-next" style="float: right;">
-          <kbd>→</kbd> <a class="menu-level-1" href="/about"><b>1</b> about</a>
+          <kbd>→</kbd> <a class="menu-level-1" href="/booksjl-franklin/about"><b>1</b> about</a>
       </span>
     
   </p>
@@ -123,8 +123,8 @@
     </div> <!-- .books-container -->
 
     
-        <script src="/libs/katex/katex.min.js"></script>
-        <script src="/libs/katex/auto-render.min.js"></script>
+        <script src="/booksjl-franklin/libs/katex/katex.min.js"></script>
+        <script src="/booksjl-franklin/libs/katex/auto-render.min.js"></script>
         <script>renderMathInElement(document.body)</script>
     
   </body>
